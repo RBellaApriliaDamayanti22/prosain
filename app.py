@@ -27,13 +27,13 @@ with upload_data:
     st.write("Penjelasan Nama - Nama Kolom : ")
     st.write("""
     <ol>
-    <li>Date (Tanggal): Tanggal dalam data time series mengacu pada tanggal tertentu saat data keuangan dikumpulkan atau dilaporkan. Ini adalah waktu kapan data keuangan yang terkait dengan PT Adaro Minerals Indonesia dicatat.</li>
-    <li>Open (Harga Pembukaan): Harga pembukaan adalah harga perdagangan PT Adaro Minerals Indonesia pada awal periode waktu tertentu, seperti hari perdagangan atau sesi perdagangan. Harga pembukaan menunjukkan harga perdagangan pertama dari PT Adaro Minerals Indonesia pada periode tersebut.</li>
-    <li>High (Harga Tertinggi): Harga tertinggi adalah harga tertinggi yang dicapai oleh PT Adaro Minerals Indonesia selama periode waktu tertentu, seperti hari perdagangan atau sesi perdagangan. Harga tertinggi mencerminkan harga perdagangan tertinggi yang dicapai oleh PT Adaro Minerals Indonesia dalam periode tersebut.</li>
-    <li>Low (Harga Terendah): Harga terendah adalah harga terendah yang dicapai oleh PT Adaro Minerals Indonesia selama periode waktu tertentu, seperti hari perdagangan atau sesi perdagangan. Harga terendah mencerminkan harga perdagangan terendah yang dicapai oleh PT Adaro Minerals Indonesia dalam periode tersebut.</li>
-    <li>Close (Harga Penutupan): Harga penutupan adalah harga terakhir dari XL pada akhir periode waktu tertentu.</li>
-    <li>Adj Close (Harga Penutupan yang Disesuaikan): Adj Close, atau harga penutupan yang disesuaikan, adalah harga penutupan yang telah disesuaikan untuk faktor-faktor seperti dividen, pemecahan saham, atau perubahan lainnya yang mempengaruhi harga saham PT Adaro Minerals Indonesia. Ini memberikan gambaran yang lebih akurat tentang kinerja saham dari waktu ke waktu karena menghilangkan efek dari perubahan-perubahan tersebut.</li>
-    <li>Volume: Volume dalam konteks data keuangan PT Adaro Minerals Indonesia mengacu pada jumlah saham yang diperdagangkan selama periode waktu tertentu, seperti hari perdagangan atau sesi perdagangan. Volume mencerminkan seberapa aktifnya perdagangan saham PT Adaro Minerals Indonesia dalam periode tersebut.</li>
+    <li>Date (Tanggal): Tanggal dalam data time series mengacu pada tanggal tertentu saat data keuangan dikumpulkan atau dilaporkan. Ini adalah waktu kapan data keuangan yang terkait dengan PT XL Axiata dicatat.</li>
+    <li>Open (Harga Pembukaan): Harga pembukaan adalah harga perdagangan  pada awal periode waktu tertentu, seperti hari perdagangan atau sesi perdagangan. Harga pembukaan menunjukkan harga perdagangan pertama dari PT XL Axiata pada periode tersebut.</li>
+    <li>High (Harga Tertinggi): Harga tertinggi adalah harga tertinggi yang dicapai oleh  selama periode waktu tertentu, seperti hari perdagangan atau sesi perdagangan. Harga tertinggi mencerminkan harga perdagangan tertinggi yang dicapai oleh PT XL Axiata dalam periode tersebut.</li>
+    <li>Low (Harga Terendah): Harga terendah adalah harga terendah yang dicapai oleh PT XL Axiata  selama periode waktu tertentu, seperti hari perdagangan atau sesi perdagangan. Harga terendah mencerminkan harga perdagangan terendah yang dicapai oleh PT XL Axiata  dalam periode tersebut.</li>
+    <li>Close (Harga Penutupan): Harga penutupan adalah harga terakhir dari PT XL Axiata  pada akhir periode waktu tertentu.</li>
+    <li>Adj Close (Harga Penutupan yang Disesuaikan): Adj Close, atau harga penutupan yang disesuaikan, adalah harga penutupan yang telah disesuaikan untuk faktor-faktor seperti dividen, pemecahan saham, atau perubahan lainnya yang mempengaruhi harga saham PT XL Axiata . Ini memberikan gambaran yang lebih akurat tentang kinerja saham dari waktu ke waktu karena menghilangkan efek dari perubahan-perubahan tersebut.</li>
+    <li>Volume: Volume dalam konteks data keuangan PT XL Axiata mengacu pada jumlah saham yang diperdagangkan selama periode waktu tertentu, seperti hari perdagangan atau sesi perdagangan. Volume mencerminkan seberapa aktifnya perdagangan saham PT XL Axiata  dalam periode tersebut.</li>
     </ol>
     """,unsafe_allow_html=True)
 with persiapan_data:
